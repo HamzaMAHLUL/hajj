@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: ' دليل الحج والعمرة',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.green,
+          seedColor: Colors.red,
           primary: Colors.green,
         ),
         fontFamily: 'Arial',
