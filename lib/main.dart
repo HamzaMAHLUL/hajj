@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.red,
-          primary: Colors.green,
+          primary: const Color.fromARGB(255, 46, 20, 197),
         ),
         fontFamily: 'Arial',
         useMaterial3: true,
@@ -80,7 +80,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
             ),
           ],
           currentIndex: _selectedIndex,
-          selectedItemColor: Colors.green,
+          selectedItemColor: const Color.fromARGB(255, 9, 67, 255),
           unselectedItemColor: Colors.grey,
           onTap: _onItemTapped,
           type: BottomNavigationBarType.fixed,
